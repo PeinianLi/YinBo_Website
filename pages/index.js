@@ -1,7 +1,5 @@
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
-import Footer from "../components/FooterFigma"
-import  Navbar from "../components/NavbarFigma";
 import styled from "styled-components";
 import { MdCheckCircle } from 'react-icons/md';
 
@@ -9,7 +7,6 @@ import { MdCheckCircle } from 'react-icons/md';
 export default function Home() {
     return (
         <div>
-            <Navbar/>
             <CenteredContainer>
                 <div style={{display:"flex", justifyContent:"center", width:"1200px", padding:"50px", flexDirection:"column", alignContent:"center"}}>
                     <Title>
@@ -59,7 +56,6 @@ export default function Home() {
                     You found me!!
                 </SpecialThanks>
             </CenteredContainer>
-            <Footer/>
         </div>
     );
 }

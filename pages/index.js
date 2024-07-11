@@ -47,24 +47,16 @@ export default function Home() {
                     <br/>
                     <br/>
                     <SubTitle>
-                        The Future Is Decentralized
+                        Education
                     </SubTitle>
                     <Content>
-                        The future of stock trading is not just about making investments; it's about making a difference. With our decentralized stock market, we are paving the way for a financial ecosystem that is fair, open, and accessible to all. Join us as we embark on this journey towards a more equitable financial future.
-                    </Content>
-                    <br/>
-                    <br/>
-                    <SubTitle>
-                        Connect With Us
-                    </SubTitle>
-                    <Content>
-                        Are you ready to take control of your financial destiny? Connect with us to learn more about our platform and how you can be a part of the decentralized finance revolution. Together, let's build a future where everyone has the opportunity to invest and thrive.
+                        Bachelor's degree in Business Psychology and Economics, Penn State University (Graduating August 2025)
                     </Content>
                 </div>
             </CenteredContainer>
             <CenteredContainer style={{padding:"0px"}}>
                 <SpecialThanks>
-                    Special Thanks for our honorable mentor, Omar Rady!
+                    You found me!!
                 </SpecialThanks>
             </CenteredContainer>
             <Footer/>
